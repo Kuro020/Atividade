@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade", "Atividade\Atividade.csproj", "{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atividade", "Atividade\Atividade.csproj", "{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM32 = Debug|ARM32
 		Release|Any CPU = Release|Any CPU
+		Release|ARM32 = Release|ARM32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Debug|ARM32.Build.0 = Debug|ARM32
 		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Release|ARM32.ActiveCfg = Release|ARM32
+		{EC905209-B4A5-48F4-90E2-C6E7EA81D9C5}.Release|ARM32.Build.0 = Release|ARM32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

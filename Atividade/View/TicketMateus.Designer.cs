@@ -37,12 +37,13 @@ namespace Atividade.View
             this.tbxPlaca = new System.Windows.Forms.TextBox();
             this.tbxCor = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
+            this.lblData = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(67, 75);
+            this.lblNome.Location = new System.Drawing.Point(71, 75);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(43, 15);
             this.lblNome.TabIndex = 0;
@@ -51,7 +52,7 @@ namespace Atividade.View
             // lblPlaca
             // 
             this.lblPlaca.AutoSize = true;
-            this.lblPlaca.Location = new System.Drawing.Point(72, 129);
+            this.lblPlaca.Location = new System.Drawing.Point(76, 129);
             this.lblPlaca.Name = "lblPlaca";
             this.lblPlaca.Size = new System.Drawing.Size(38, 15);
             this.lblPlaca.TabIndex = 1;
@@ -60,7 +61,7 @@ namespace Atividade.View
             // lblCor
             // 
             this.lblCor.AutoSize = true;
-            this.lblCor.Location = new System.Drawing.Point(76, 184);
+            this.lblCor.Location = new System.Drawing.Point(81, 184);
             this.lblCor.Name = "lblCor";
             this.lblCor.Size = new System.Drawing.Size(29, 15);
             this.lblCor.TabIndex = 2;
@@ -68,7 +69,7 @@ namespace Atividade.View
             // 
             // dtpData
             // 
-            this.dtpData.Location = new System.Drawing.Point(76, 239);
+            this.dtpData.Location = new System.Drawing.Point(111, 226);
             this.dtpData.Name = "dtpData";
             this.dtpData.Size = new System.Drawing.Size(200, 23);
             this.dtpData.TabIndex = 3;
@@ -104,11 +105,21 @@ namespace Atividade.View
             this.btnEnviar.UseVisualStyleBackColor = true;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
+            // lblData
+            // 
+            this.lblData.AutoSize = true;
+            this.lblData.Location = new System.Drawing.Point(76, 232);
+            this.lblData.Name = "lblData";
+            this.lblData.Size = new System.Drawing.Size(34, 15);
+            this.lblData.TabIndex = 8;
+            this.lblData.Text = "Data:";
+            // 
             // TicketMateus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 343);
+            this.Controls.Add(this.lblData);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.tbxCor);
             this.Controls.Add(this.tbxPlaca);
@@ -134,5 +145,6 @@ namespace Atividade.View
         private System.Windows.Forms.TextBox tbxPlaca;
         private System.Windows.Forms.TextBox tbxCor;
         private System.Windows.Forms.Button btnEnviar;
+        private System.Windows.Forms.Label lblData;
     }
 }
