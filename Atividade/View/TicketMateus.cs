@@ -42,6 +42,9 @@ namespace Atividade.View
                 tbxCor.SelectAll();
                 return;
             }
+
+            lblResultado.Text = "Dados Válidos";
+            lblResultado.ForeColor = Color.Green;
         }
 
             public void LimparTela()
@@ -66,7 +69,6 @@ namespace Atividade.View
         private void btnEnviar_Click(object sender, EventArgs e)
         {
             validaDados();
-            MessageBox.Show("Ticket Cadastrado.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Information);
             LimparTela();
         }
     }

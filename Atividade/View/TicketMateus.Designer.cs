@@ -38,6 +38,7 @@ namespace Atividade.View
             this.tbxCor = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.lblData = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNome
@@ -97,7 +98,7 @@ namespace Atividade.View
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(311, 129);
+            this.btnEnviar.Location = new System.Drawing.Point(336, 72);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(156, 53);
             this.btnEnviar.TabIndex = 7;
@@ -114,11 +115,20 @@ namespace Atividade.View
             this.lblData.TabIndex = 8;
             this.lblData.Text = "Data:";
             // 
+            // lblResultado
+            // 
+            this.lblResultado.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblResultado.Location = new System.Drawing.Point(336, 172);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(183, 77);
+            this.lblResultado.TabIndex = 9;
+            // 
             // TicketMateus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 343);
+            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.tbxCor);
@@ -146,5 +156,6 @@ namespace Atividade.View
         private System.Windows.Forms.TextBox tbxCor;
         private System.Windows.Forms.Button btnEnviar;
         private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.Label lblResultado;
     }
 }

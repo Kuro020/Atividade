@@ -39,6 +39,7 @@ namespace Atividade.View
             this.lblPlaca = new System.Windows.Forms.Label();
             this.tbxPlaca = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cbxCarro
@@ -282,7 +283,7 @@ namespace Atividade.View
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(306, 222);
+            this.btnEnviar.Location = new System.Drawing.Point(33, 218);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(199, 74);
             this.btnEnviar.TabIndex = 8;
@@ -290,11 +291,20 @@ namespace Atividade.View
             this.btnEnviar.UseVisualStyleBackColor = true;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
+            // lblResultado
+            // 
+            this.lblResultado.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblResultado.Location = new System.Drawing.Point(368, 218);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(255, 123);
+            this.lblResultado.TabIndex = 9;
+            // 
             // CarroMateus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.tbxPlaca);
             this.Controls.Add(this.lblPlaca);
@@ -323,5 +333,6 @@ namespace Atividade.View
         private System.Windows.Forms.Label lblPlaca;
         private System.Windows.Forms.TextBox tbxPlaca;
         private System.Windows.Forms.Button btnEnviar;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
